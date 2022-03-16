@@ -8,6 +8,8 @@ import { PictureCompComponent } from './picture-comp/picture-comp.component';
 import { SingerCompComponent } from './singer-comp/singer-comp.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TempMeterComponent } from './temp-meter/temp-meter.component';
+import { SweetCakeComponent } from './sweet-cake/sweet-cake.component';
+import {FormsModule} from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { TempMeterComponent } from './temp-meter/temp-meter.component';
     BodyCompComponent,
     PictureCompComponent,
     SingerCompComponent,
-    TempMeterComponent
+    TempMeterComponent,
+    SweetCakeComponent
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
