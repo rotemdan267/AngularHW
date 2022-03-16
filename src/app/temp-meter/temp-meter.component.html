@@ -1,0 +1,7 @@
+<label for="temperature">Temperature:</label>
+<input type="number" name="temperature" id="temperature" #insidenumber (input)="tempDescription(insidenumber.value)">
+
+
+<div>
+    {{ tempDesc }}
+</div>
